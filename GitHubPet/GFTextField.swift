@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GFTextField: UITextField {
+class GFTextField: UITextField, UITextFieldDelegate {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
