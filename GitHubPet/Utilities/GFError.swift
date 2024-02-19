@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GitHubPet
 //
-//  Created by Artyom on 31.01.2024.
+//  Created by Artyom on 14.02.2024.
 //
 
 import Foundation
@@ -12,4 +12,6 @@ enum GFError: String, Error {
     case unableToComplete = "Unable to complete your request. Please check your internet connection"
     case invalidResponse = "Invalid response from the server. Please try again."
     case invalidData = "The daata received from the server was invalid. Please try again."
+    case unableToFavorite = "There was an error favoriting this user. Please try again."
+    case alreadyInFavorites = "You've already favorited this user. You must REALLY like them!"
 }
